@@ -1,0 +1,19 @@
+#ifndef CCAMERA_H
+#define CCAMERA_H
+#include "Global.h"
+
+class CCamera
+{
+public:
+	CCamera();
+	~CCamera();
+
+	D3DXVECTOR3 vPos;	//à íu.
+	D3DXVECTOR3 vLook;	//íçéãà íu.
+	float		fYaw;	//Yé≤âÒì].
+	D3DXMATRIX	mRot;	//âÒì]çsóÒ.
+private:
+
+};
+#endif //#ifndef CCAMERA_H
+
